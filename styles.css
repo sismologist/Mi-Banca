@@ -1,0 +1,181 @@
+body {
+    color: rgb(255, 255, 255);
+    background-color: #000000;
+    font-family: 'Co';
+    margin: 0;
+    padding: 0;
+    font-family: 'Comfortaa',sans-serif;
+}
+
+#menu {
+    display: flex; /* Activar flexbox */
+    justify-content: center; /* Centrar los botones horizontalmente */
+    align-items: center; /* Centrar verticalmente */
+    gap: 20px; /* Espacio entre los botones */
+    margin-top: 10px; /* Espacio superior */
+    font-family: 'Comfortaa',sans-serif;
+}
+
+#formulario {
+    font-family: 'Comfortaa',sans-serif;
+    font-size: 15px;
+}
+
+.bup {
+    padding: 10px 20px; /* Tamaño de los botones */
+    background-color: #e75d00;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-family: 'Comfortaa',sans-serif;
+}
+
+.bup:hover {
+    background-color: #009fbb;
+}
+
+button {
+    padding: 10px 20px; /* Tamaño de los botones */
+    background-color: #009fbb;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-family: 'Comfortaa',sans-serif;
+}
+
+button:hover {
+    background-color: #e75d00;
+}
+
+.containe {
+    display: flex;
+    flex: 1;
+    height: 100vh;
+}
+
+.left-side {
+    width: 46%; /* Ajusta el ancho para dejar espacio al 46% de la derecha */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color:#030514;
+    padding: 20px;
+}
+
+.logo {
+    max-width: 80%;
+    height: auto;
+    margin-bottom: 20px;
+}
+
+.btn {
+    font-family: "Comfortaa", sans-serif;
+    padding: 16px 40px;
+    font-size: 25px;
+    cursor: pointer;
+    background-color: #009fbb;
+    color: white;
+    border: none;
+    border-radius: 7px;
+}
+
+.right-side {
+    width: 54%;
+    position: relative;
+    background-image: url('3.png'); /* Imagen de fondo */
+    background-size: cover;
+    background-position: center;
+    background-color: #ffcf77;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    color: white;
+    padding: 20px;
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.center-text {
+    font-size: 70px;
+    font-weight: bold;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    background: rgba(0, 0, 0, 0.5);
+    padding: 20px;
+    border-radius: 6px;
+    font-family: 'Comfortaa',sans-serif;
+    font-size: 80px;
+}
+
+@media (max-width: 1024px) {
+    .center-text {
+        font-size: 60px;
+    }
+}
+
+@media (max-width: 768px) {
+    .center-text {
+        font-size: 40px; 
+    }
+}
+
+@media (max-width: 600px) {
+    .center-text {
+        font-size: 30px; 
+    }
+}
+
+@media (max-width: 400px) {
+    .center-text {
+        font-size: 20px; 
+    }
+}
+
+.container {
+    max-width: 800px;
+    margin: auto;
+    background: #161616;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1{
+    text-align: center;
+    color: #ffffff;
+    font-weight: bolder;
+}
+
+input, select {
+    margin: 15px 0;
+    padding: 5px;
+    width: 98%;
+}
+
+#registro-compras, #compras-franquicia {
+    margin-top: 20px;
+}
+
+
+#contenido {
+    display: none;
+}
+
+h2 {
+    font-family: 'Comfortaa',sans-serif;
+    color: #e75d00;
+    text-align: center;
+    font-weight: 500;
+}
